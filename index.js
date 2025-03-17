@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5324;
 
 // Import DB2 connection, authentication & transaction services
 const { getConnection } = require('./DB2Connection');
