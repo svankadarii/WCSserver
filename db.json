@@ -1,0 +1,23 @@
+{
+  "balance": 100,
+  "transactions": [
+    {
+        "id" : 1,
+        "amount": 100,
+        "type": "deposit",
+        "date": "2021-01-01"
+    },
+    {
+        "id" : 2,
+        "amount": 50,
+        "type": "withdrawl",
+        "date": "2021-01-02"
+    },
+    {
+        "id" : 3,
+        "amount": 250,
+        "type": "deposit",
+        "date": "2021-01-03"
+    }
+  ]
+}
